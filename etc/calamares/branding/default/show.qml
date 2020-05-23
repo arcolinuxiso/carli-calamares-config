@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 1000
+        interval: 5000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -78,7 +78,7 @@ Presentation
         console.log("QML Component (default slideshow) activated");
         presentation.currentSlide = 0;
     }
-    
+
     function onLeave() {
         console.log("QML Component (default slideshow) deactivated");
     }
