@@ -1,0 +1,16 @@
+- name: "Browsers"
+  description: "Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - chromium
+    - falkon
+    - firefox
+    - midori
+    - min
+    - netsurf
+    - opera
+    - qutebrowser
+    - torbrowser-launcher
