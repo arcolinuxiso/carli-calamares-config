@@ -94,3 +94,11 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #licenseItem {  }
 #licenseItemFullText {  }
 */
+
+#debugButton {
+	font: bold 8px;
+	color: #292F34;
+}
+#debugButton:hover {
+	color: #ffffff;
+}
