@@ -5,7 +5,7 @@
   critical: false
   expanded: false
   packages:
-    - termite
+    - scrot
 - name: "Browsers"
   description: "Browsers"
   hidden: false
@@ -14,14 +14,9 @@
   expanded: true
   packages:
     - chromium
-    - falkon
     - firefox
-    - midori
-    - min
-    - netsurf
     - opera
     - qutebrowser
-    - torbrowser-launcher
 - name: "Shells"
   description: "Shells"
   hidden: false
