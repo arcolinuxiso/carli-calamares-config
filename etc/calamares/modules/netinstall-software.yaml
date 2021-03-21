@@ -13,6 +13,7 @@
   critical: false
   expanded: true
   packages:
+    - min
     - chromium
     - firefox
     - opera
