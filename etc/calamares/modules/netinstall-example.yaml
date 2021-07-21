@@ -1,66 +1,81 @@
-- name: "Accessories"
-  description: "Accessories"
+- name: "Default"
+  description: "Default"
+  hidden: true
+  selected: true
   critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - cheese
-    - flameshot-git
-    - liferea
-    - mediainfo-gui
-    - mcomix
-    - pdfarranger
-    - screenkey-git
-- name: "Git"
-  description: "Git applications"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - gitg
-    - gitfiend
-    - gitkraken
-- name: "Password Manager"
-  description: "Password managers"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - bitwarden-bin
-    - enpass-bin
-    - keepassxc
-    - lastpass
-- name: "Privacy"
-  description: "Applications that ensure your privacy"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - tor-browser
-    - tor
-    - privoxy
-- name: "Virtualbox for Linux kernel"
-  description: "Installs virtualbox for linux kernel"
-  critical: false
-  hidden: false
-  selected: false
   expanded: false
   packages:
-    - virtualbox
-    - virtualbox-host-dkms
-    - linux-headers
-- name: "Virtualbox for Linux-lts kernel"
-  description: "Installs virtualbox for linux-lts kernel"
-  critical: false
+    - scrot
+- name: "Browsers"
+  description: "Browsers"
   hidden: false
   selected: false
-  expanded: false
+  critical: false
+  expanded: true
   packages:
-    - virtualbox
-    - virtualbox-host-dkms
-    - linux-lts-headers
-    - linux-lts
+    - min
+    - chromium
+    - firefox
+    - opera
+    - qutebrowser
+- name: "Shells"
+  description: "Shells"
+  hidden: false
+  selected: false
+  critical: true
+  subgroups:
+    - name: "Bash"
+      description: "Bourne Again Shell"
+      selected: true
+      packages:
+        - bash
+        - bash-completion
+    - name: "Zsh"
+      description: "Zee shell, boss"
+      packages:
+        - zsh
+        - zsh-completion    
+- name: "Kernel"
+  description: "Kernel"
+  hidden: false
+  selected: true
+  critical: true
+  immutable: true
+  packages:
+    - linux
+- name: Communications
+  description: "Communications Software"
+  packages:
+    - discord
+    - telegram
+- name: Editors
+  description: "Editing"
+  selected: false
+  packages:
+    - emacs
+    - nano
+    - name: kate
+      description: KDE's text editor
+- name: IDE
+  description: "Development Environment"
+  selected: false
+  subgroups:
+   - name: Emacs
+     description: LISP environment and editor
+     subgroups:
+      - name: Bogus
+        description: Bogus
+        hidden: true
+        selected: true
+        packages:
+         - emacs
+   - name: KDevelop
+     description: KDE's C++, PHP and Python environment
+     subgroups:
+      - name: Bogus
+        description: Bogus
+        hidden: true
+        selected: true
+        packages:
+         - kdevelop
+   
