@@ -1,0 +1,23 @@
+- name: "Communication"
+  description: "Communication software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-teamviewer
+    - hexchat    
+    - krdc
+    - mailspring
+    - nomachine
+    - pidgin    
+    - qtox
+    - remmina
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - teams
+    - tigervnc
+    - viber
+    - whatsapp-nativefier    
+    - wire-desktop
+    - zoom

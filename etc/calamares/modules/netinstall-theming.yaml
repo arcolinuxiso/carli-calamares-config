@@ -1,0 +1,32 @@
+- name: "Theming"
+  description: "Themes, icons and cursors"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - adapta-gtk-theme
+    - arc-icon-theme
+    - arcolinux-arc-kde
+    - arcolinux-candy-beauty-git
+    - breeze
+    - capitaine-cursors
+    - faba-icon-theme-git
+    - faba-mono-icons-git
+    - halo-icons-git
+    - materia-gtk-theme
+    - materia-kde
+    - moka-icon-theme-git
+    - openbox-themes-pambudi-git
+    - oxy-neon
+    - paper-icon-theme
+    - papirus-icon-theme
+    - surfn-mint-y-icons-git
+    - xcursor-arch-cursor-complete
+    - xcursor-breeze
+    - xcursor-comix
+    - xcursor-flatbed
+    - xcursor-neutral
+    - xcursor-premium
+    - xcursor-simpleandsoft
+    - zafiro-icon-theme
