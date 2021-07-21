@@ -5,7 +5,6 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-teamviewer
     - hexchat    
     - krdc
     - mailspring
