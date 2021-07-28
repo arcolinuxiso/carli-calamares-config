@@ -5,23 +5,16 @@
   selected: false
   expanded: true
   packages:
-    - amarok
     - ardour
     - audacious
     - audacious-plugins
     - audacity
     - celluloid
-    - cava
     - clementine
-    - curseradio-git
-    - deadbeef
     - elisa
-    - gmusicbrowser
     - guvcview
     - handbrake
-    - hypnotix
     - juk
-    - kazam
     - kdenlive
     - kodi-x11
     - kodi
@@ -39,13 +32,6 @@
     - ncmpcpp
     - peek
     - pitivi
-    - plex-media-player
-    - plex-media-server
-    - radiotray
     - rhythmbox
-    - sayonara-player
     - soundconverter
     - smplayer
-    - spotify
-    - spotifywm-git
-    - tauon-music-box

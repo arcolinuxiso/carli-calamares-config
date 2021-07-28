@@ -5,9 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - brave-bin
     - deluge
-    - dropbox
     - evolution
     - falkon
     - filezilla
@@ -15,11 +13,7 @@
     - firefox-i18n-$LOCALE
     - firefox-ublock-origin
     - geary
-    - google-chrome
-    - insync
     - ktorrent
-    - librewolf-bin
-    - megasync-bin
     - midori
     - min
     - netsurf
@@ -27,5 +21,4 @@
     - opera
     - qutebrowser
     - thunderbird
-    - torbrowser
     - transmission-gtk

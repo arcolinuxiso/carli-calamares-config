@@ -11,7 +11,6 @@
     - mediainfo-gui
     - mcomix
     - pdfarranger
-    - screenkey-git
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -20,8 +19,6 @@
   expanded: true
   packages:
     - gitg
-    - gitfiend
-    - gitkraken
 - name: "Password Manager"
   description: "Password managers"
   critical: false
@@ -29,10 +26,7 @@
   selected: false
   expanded: true
   packages:
-    - bitwarden-bin
-    - enpass-bin
     - keepassxc
-    - lastpass
 - name: "Privacy"
   description: "Applications that ensure your privacy"
   critical: false
@@ -40,7 +34,6 @@
   selected: false
   expanded: true
   packages:
-    - tor-browser
     - tor
     - privoxy
 - name: "Virtualbox for Linux kernel"

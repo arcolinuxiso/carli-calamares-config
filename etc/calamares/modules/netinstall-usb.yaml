@@ -7,8 +7,4 @@
   packages:
     - baobab
     - brasero
-    - etcher-bin
-    - imagewriter
-    - ventoy-bin
-    - woeusb
     - xfburn

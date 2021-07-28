@@ -59,34 +59,6 @@
     - libreoffice-still
     - libreoffice-still-$LOCALE
     - hunspell-$LOCALE
-- name: "Ms Office Online"
-  description: "Microsoft Office Suite Online as a native application"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - ms-office-online  
-- name: "Moneydance"
-  description: "Moneydance"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - moneydance    
-- name: "Onlyoffice"
-  description: "Onlyoffice"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - onlyoffice-bin
-- name: "Openoffice"
-  description: "Openoffice"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - openoffice-bin
 - name: "Scribus"
   description: "Scribus"
   critical: false
@@ -94,12 +66,3 @@
   selected: false
   packages:
     - scribus
-- name: "WPS Office"
-  description: "Installs wps office"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - wps-office
-    - wps-office-mime
-    - ttf-wps-fonts
