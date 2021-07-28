@@ -34,7 +34,7 @@
       description: "Zee shell, boss"
       packages:
         - zsh
-        - zsh-completion    
+        - zsh-completions
 - name: "Kernel"
   description: "Kernel"
   hidden: false
