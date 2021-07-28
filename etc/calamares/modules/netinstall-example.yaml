@@ -47,7 +47,7 @@
   description: "Communications Software"
   packages:
     - discord
-    - telegram
+    - telegram-desktop
 - name: Editors
   description: "Editing"
   selected: false
