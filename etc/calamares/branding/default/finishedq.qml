@@ -63,17 +63,13 @@ Page {
         Button {
             id: button
             font.pointSize: 12
-            border.width: 1
-            border.color: "#444"
             text: qsTr("Close Installer")
             icon.name: "application-exit"
             onClicked: { ViewManager.quit(); }
         }
 
         Button {
-            font.pointSize: 12
-            border.width: 1
-            border.color: "#444"            
+            font.pointSize: 12           
             text: qsTr("Restart System")
             icon.name: "system-reboot"
             onClicked: { config.doRestart(true); }
