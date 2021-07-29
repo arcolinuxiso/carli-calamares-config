@@ -49,8 +49,8 @@ Page {
             anchors.top: header.bottom
             anchors.topMargin: 80
             anchors.horizontalCenter: parent.horizontalCenter
-            width: 64
-            height: 64
+            width: 256
+            height: 256
             mipmap: true
         }
     }
@@ -86,6 +86,7 @@ Page {
             anchors.centerIn: parent
             anchors.top: parent.top
             horizontalAlignment: Text.AlignHCenter
+            font.pointSize: 12
             text: qsTr("<p>A full log of the install is available as installation.log in the home directory of the Live user.<br/>
             This log is copied to /var/log/installation.log of the target system.</p>")
         }
