@@ -113,7 +113,7 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
   font: 20px;
 }
 
-Qwidget {
+QWidget {
   font: 16px;
 }
 
