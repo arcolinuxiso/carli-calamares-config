@@ -42,11 +42,12 @@ Rectangle {
         Repeater {
             model: ViewManager
             Rectangle {
+                Layout.topMargin: 6;
                 Layout.leftMargin: 6;
                 Layout.rightMargin: 6;
                 Layout.fillWidth: true;
-                height: 35;
-                radius: 6;
+                height: 24;
+                radius: 0;
                 color: Branding.styleString( index == ViewManager.currentStepIndex ? Branding.SidebarBackgroundSelected : Branding.SidebarBackground );
 
                 Text {
@@ -54,6 +55,7 @@ Rectangle {
                     anchors.horizontalCenter: parent.horizontalCenter;
                     color: Branding.styleString( index == ViewManager.currentStepIndex ? Branding.SidebarTextSelected : Branding.SidebarText );
                     text: display;
+                    font.pointSize: 12;
                 }
             }
         }

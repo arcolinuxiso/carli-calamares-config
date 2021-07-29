@@ -121,7 +121,16 @@ QDialogButtonBox{
   dialogbuttonbox-buttons-have-icons: 0;
 }
 
+QProgressBar::chunk {
+  background-color: #EFB70E;
+}
+
+
 #debugButton {
 	font: bold 8px;
 	color: #444;
+}
+
+#debugButton:hover {
+  color: #444;
 }
