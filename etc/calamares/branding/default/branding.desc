@@ -121,7 +121,7 @@ navigation: qml
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
+    productName:         Carli
     shortProductName:    Carli
     version:             2021.07.1
     shortVersion:        2021.07
