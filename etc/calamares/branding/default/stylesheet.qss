@@ -96,14 +96,32 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #licenseItemFullText {  }
 */
 
-#debugButton {
-	font: bold 8px;
-	color: #292F34;
-}
-#debugButton:hover {
-	color: #292F34;
+/* START OF QSS */
+
+#mainApp { }
+
+#sidebarApp {
+  background-color: #444;
 }
 
 #logoApp {
-  padding-top:-80px;
+  background-color: #444;
+}
+
+#sidebarMenuApp{
+  background-color: #444;
+  font: 20px;
+}
+
+Qwidget {
+  font: 16px;
+}
+
+QDialogButtonBox{
+  dialogbuttonbox-buttons-have-icons: 0;
+}
+
+#debugButton {
+	font: bold 8px;
+	color: #444;
 }

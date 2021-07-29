@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 800px,670px
+windowSize: 800px,700px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -78,7 +78,7 @@ windowPlacement: center
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: qml,right
+sidebar: widget,right
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -87,7 +87,7 @@ sidebar: qml,right
 # In addition, you **may** specify a side, separated by a comma,
 # from the kind. The same sides are valid as for *sidebar*,
 # except the default is *bottom*.
-navigation: qml
+navigation: widget
 
 
 ### STRINGS, IMAGES AND COLORS
@@ -164,7 +164,7 @@ strings:
 images:
     # productBanner:       "banner.png"
     # productIcon:         "squid.png"
-    # productLogo:         "squid.png"
+    productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "carli-2.svg"
 
@@ -180,9 +180,9 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
+   sidebarBackground:    "#444"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
+   sidebarTextSelect:    "#444"
    sidebarTextHighlight: "#FFFFFF"
 
 ### SLIDESHOW
