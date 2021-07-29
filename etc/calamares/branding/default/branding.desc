@@ -78,7 +78,7 @@ windowPlacement: center
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: widget
+sidebar: qml,right
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -87,7 +87,7 @@ sidebar: widget
 # In addition, you **may** specify a side, separated by a comma,
 # from the kind. The same sides are valid as for *sidebar*,
 # except the default is *bottom*.
-navigation: widget
+navigation: qml
 
 
 ### STRINGS, IMAGES AND COLORS
@@ -121,18 +121,18 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         Carli
-    shortProductName:    Generic
+    productName:         "@{NAME}"
+    shortProductName:    Carli
     version:             2021.07.1
     shortVersion:        2021.07
     versionedName:       Carli
-    #shortVersionedName:  Generic 2017.8
+    #shortVersionedName:  Carli
     bootloaderEntryName: Generic
-    #productUrl:          https://calamares.io/
-    #supportUrl:          https://github.com/calamares/calamares/issues
-    #knownIssuesUrl:      https://calamares.io/about/
-    #releaseNotesUrl:     https://calamares.io/about/
-    #donateUrl:           https://kde.org/community/donations/index.php
+#   productUrl:          https://calamares.io/
+#   supportUrl:          https://github.com/calamares/calamares/issues
+#   knownIssuesUrl:      https://calamares.io/about/
+#   releaseNotesUrl:     https://calamares.io/about/
+#   donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
 #
