@@ -51,7 +51,6 @@ QPushButton { background-color: green; }
 /*
 #mainApp { }
 #sidebarApp { }
-#logoApp { }
 */
 
 /*** Welcome module.
@@ -103,4 +102,8 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 }
 #debugButton:hover {
 	color: #292F34;
+}
+
+#logoApp {
+  padding-top:-80px;
 }
