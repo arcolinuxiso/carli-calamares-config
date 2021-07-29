@@ -102,5 +102,5 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 	color: #292F34;
 }
 #debugButton:hover {
-	color: #ffffff;
+	color: #292F34;
 }

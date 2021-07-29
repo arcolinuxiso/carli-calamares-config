@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 800px,700px
+windowSize: 800px,670px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -132,7 +132,6 @@ strings:
     #supportUrl:          https://github.com/calamares/calamares/issues
     #knownIssuesUrl:      https://calamares.io/about/
     #releaseNotesUrl:     https://calamares.io/about/
-    #donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
 #
@@ -163,8 +162,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    # productIcon:         "squid.png"
+    # productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "carli-2.svg"
 
