@@ -47,7 +47,7 @@ Page {
         Image {
             source: "seedling.svg"
             anchors.top: header.bottom
-            anchors.topMargin: 80
+            anchors.topMargin: 20
             anchors.horizontalCenter: parent.horizontalCenter
             width: 256
             height: 256
@@ -58,16 +58,22 @@ Page {
     RowLayout {
         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
         anchors.centerIn: parent
-        spacing: 6
+        spacing: 20
 
         Button {
             id: button
+            font.pointSize: 12
+            border.width: 1
+            border.color: "#444"
             text: qsTr("Close Installer")
             icon.name: "application-exit"
             onClicked: { ViewManager.quit(); }
         }
 
         Button {
+            font.pointSize: 12
+            border.width: 1
+            border.color: "#444"            
             text: qsTr("Restart System")
             icon.name: "system-reboot"
             onClicked: { config.doRestart(true); }
