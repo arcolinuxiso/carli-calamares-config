@@ -51,6 +51,7 @@ QPushButton { background-color: green; }
 /*
 #mainApp { }
 #sidebarApp { }
+#logoApp { }
 */
 
 /*** Welcome module.
