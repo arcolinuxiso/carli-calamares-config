@@ -127,7 +127,7 @@ strings:
     shortVersion:        2023.03
     versionedName:       Carli
     #shortVersionedName: Carli
-    bootloaderEntryName: Generic
+    bootloaderEntryName: Carli
 #   productUrl:          https://calamares.io/
 #   supportUrl:          https://github.com/calamares/calamares/issues
 #   knownIssuesUrl:      https://calamares.io/about/
