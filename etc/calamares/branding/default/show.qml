@@ -37,7 +37,6 @@ Presentation
         id: background1
         source: "1-welcometo.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -62,7 +61,6 @@ Presentation
         id: background2
         source: "2-carli.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -87,7 +85,6 @@ Presentation
         id: background3
         source: "3-carliis.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -112,7 +109,6 @@ Presentation
         id: background4
         source: "4-customised.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -137,7 +133,6 @@ Presentation
         id: background5
         source: "5-archlinux.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -162,7 +157,6 @@ Presentation
         id: background6
         source: "6-iso.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
@@ -188,7 +182,6 @@ Presentation
         id: background7
         source: "7-enjoy.png"
         width: parent.width; height: parent.height
-        horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
