@@ -35,7 +35,7 @@ Presentation
 
     Image {
         id: background1
-        source: "1-welcometo.svg"
+        source: "1-welcometo.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-carli.svg"
+        source: "2-carli.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -85,7 +85,7 @@ Presentation
 
     Image {
         id: background3
-        source: "3-carliis.svg"
+        source: "3-carliis.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -110,7 +110,7 @@ Presentation
 
     Image {
         id: background4
-        source: "4-customised.svg"
+        source: "4-customised.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -135,7 +135,7 @@ Presentation
 
     Image {
         id: background5
-        source: "5-archlinux.svg"
+        source: "5-archlinux.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -160,7 +160,7 @@ Presentation
 
     Image {
         id: background6
-        source: "6-iso.svg"
+        source: "6-iso.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -186,7 +186,7 @@ Presentation
 
     Image {
         id: background7
-        source: "7-enjoy.svg"
+        source: "7-enjoy.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
