@@ -44,8 +44,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background1.horizontalCenter
+        anchors.top: background1.bottom
         text: "Welcome to"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -69,8 +69,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background2.horizontalCenter
+        anchors.top: background2.bottom
         text: "Carli"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -94,8 +94,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background3.horizontalCenter
+        anchors.top: background3.bottom
         text: "Carli stands for"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -119,8 +119,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background4.horizontalCenter
+        anchors.top: background4.bottom
         text: "Customized"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -144,8 +144,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background5.horizontalCenter
+        anchors.top: background5.bottom
         text: "Arch Linux"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -169,8 +169,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background6.horizontalCenter
+        anchors.top: background6.bottom
         text: "ISO"
         wrapMode: Text.WordWrap
         width: presentation.width
@@ -195,8 +195,8 @@ Presentation
     	}
 
     Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
+        anchors.horizontalCenter: background7.horizontalCenter
+        anchors.top: background7.bottom
         text: "Enjoy the learning"
         wrapMode: Text.WordWrap
         width: presentation.width
