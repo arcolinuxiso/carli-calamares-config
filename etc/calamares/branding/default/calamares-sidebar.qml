@@ -53,7 +53,6 @@ Rectangle {
                 Text {
                     anchors.verticalCenter: parent.verticalCenter;
                     anchors.horizontalCenter: parent.horizontalCenter;
-                    color: Branding.styleString( index == ViewManager.currentStepIndex ? Branding.SidebarTextSelected : Branding.SidebarText );
                     text: display;
                     font.pointSize: 12;
                 }
@@ -80,7 +79,6 @@ Rectangle {
                     anchors.verticalCenter: parent.verticalCenter;
                     x: parent.x + 4;
                     text: qsTr("Show debug information")
-                    color: Branding.styleString( mouseArea.containsMouse ? Branding.SidebarTextSelect : Branding.SidebarBackground );
                     font.pointSize : 9
                 }
 
