@@ -48,7 +48,7 @@ Rectangle {
                 Layout.fillWidth: true;
                 height: 24;
                 radius: 0;
-                color: Branding.styleString( index == ViewManager.currentStepIndex ? Branding.SidebarBackgroundSelected : Branding.SidebarBackground );
+                color: index == ViewManager.currentStepIndex ? "#FFFFFF" : "#000000";
 
                 Text {
                     anchors.verticalCenter: parent.verticalCenter;
