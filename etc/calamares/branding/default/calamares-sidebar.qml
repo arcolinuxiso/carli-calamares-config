@@ -78,7 +78,8 @@ Rectangle {
                 hoverEnabled: true;
 
                 Text {
-                    anchors.verticalCenter: parent.verticalCenter;
+                    anchors.horizontalCenter: parent.horizontalCenter; // Centers the text horizontally
+                    anchors.verticalCenter: undefined; // Keeps default vertical alignment
                     x: parent.x + 4;
                     text: qsTr("Show debug information");
                     font.pointSize: 9;
