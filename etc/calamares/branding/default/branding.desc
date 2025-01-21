@@ -181,7 +181,7 @@ images:
 # the corresponding CSS attributes of #sidebarApp.
 style:
    SidebarBackground:    "#788091"
-   SidebarText:          "#FFFFFF"
+   SidebarText:          "#000"
 
 ### SLIDESHOW
 #
