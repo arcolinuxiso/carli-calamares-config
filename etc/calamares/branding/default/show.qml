@@ -35,17 +35,7 @@ Presentation
             id: background1
             source: "1-welcometo.png"
             anchors.fill: parent
-            fillMode: Image.PreserveAspectCrop // Ensures no white edges and preserves proportions
-        }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Welcome to"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
+            fillMode: Image.PreserveAspectCrop
         }
     }
 
@@ -58,16 +48,6 @@ Presentation
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
         }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Carli"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
-        }
     }
 
     Slide {
@@ -78,16 +58,6 @@ Presentation
             source: "3-carliis.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
-        }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Carli stands for"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
         }
     }
 
@@ -100,16 +70,6 @@ Presentation
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
         }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Customized"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
-        }
     }
 
     Slide {
@@ -120,16 +80,6 @@ Presentation
             source: "5-archlinux.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
-        }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Arch Linux"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
         }
     }
 
@@ -142,16 +92,6 @@ Presentation
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
         }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "ISO"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
-        }
     }
 
     Slide {
@@ -163,24 +103,8 @@ Presentation
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
         }
-
-        Text {
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            text: "Enjoy the learning"
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-            color: "white"
-        }
     }
 
-    // When this slideshow is loaded as a V1 slideshow, only
-    // activatedInCalamares is set, which starts the timer (see above).
-    //
-    // In V2, also the onActivate() and onLeave() methods are called.
-    // These example functions log a message (and re-start the slides
-    // from the first).
     function onActivate() {
         console.log("QML Component (default slideshow) activated");
         presentation.currentSlide = 0;
