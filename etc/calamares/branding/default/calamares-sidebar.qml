@@ -26,8 +26,8 @@ Rectangle {
         anchors.fill: parent;
         spacing: 0;
 
-/*
-          Image {
+        /*
+        Image {
             Layout.topMargin: 12;
             Layout.bottomMargin: 12;
             Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
@@ -38,7 +38,8 @@ Rectangle {
             sourceSize.width: width;
             sourceSize.height: height;
         }
-*/
+        */
+
         Repeater {
             model: ViewManager
             Rectangle {
@@ -48,7 +49,7 @@ Rectangle {
                 Layout.fillWidth: true;
                 height: 24;
                 radius: 0;
-                color: index == ViewManager.currentStepIndex ? "#FFFFFF" : "#000000";
+                color: index == ViewManager.currentStepIndex ? "#5E6472" : "#788091"; // Active 
 
                 Text {
                     anchors.verticalCenter: parent.verticalCenter;
@@ -65,25 +66,27 @@ Rectangle {
 
         Rectangle {
             Layout.fillWidth: true;
-            height: 35
-            Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom
+            height: 35;
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom;
             color: Branding.styleString( mouseArea.containsMouse ? Branding.SidebarTextHighlight : Branding.SidebarBackground);
-            visible: debug.enabled
+            visible: debug.enabled;
 
             MouseArea {
-                id: mouseArea
+                id: mouseArea;
                 anchors.fill: parent;
-                cursorShape: Qt.PointingHandCursor
-                hoverEnabled: true
+                cursorShape: Qt.PointingHandCursor;
+                hoverEnabled: true;
+
                 Text {
                     anchors.verticalCenter: parent.verticalCenter;
                     x: parent.x + 4;
-                    text: qsTr("Show debug information")
-                    font.pointSize : 9
+                    text: qsTr("Show debug information");
+                    font.pointSize: 9;
                 }
 
-                onClicked: debug.toggle()
+                onClicked: debug.toggle();
             }
         }
     }
 }
+
