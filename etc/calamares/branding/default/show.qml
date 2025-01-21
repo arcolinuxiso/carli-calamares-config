@@ -36,6 +36,9 @@ Presentation
             source: "1-welcometo.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -47,6 +50,9 @@ Presentation
             source: "2-carli.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -58,6 +64,9 @@ Presentation
             source: "3-carliis.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -69,6 +78,9 @@ Presentation
             source: "4-customised.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -80,6 +92,9 @@ Presentation
             source: "5-archlinux.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -91,6 +106,9 @@ Presentation
             source: "6-iso.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
@@ -102,6 +120,9 @@ Presentation
             source: "7-enjoy.png"
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
+            smooth: true
+            mipmap: true
+            clip: true
         }
     }
 
