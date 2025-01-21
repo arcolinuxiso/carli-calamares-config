@@ -1,0 +1,93 @@
+/*
+ * SPDX-FileCopyrightText: no
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
+/*
+A branding component can ship a stylesheet (like this one)
+which is applied to parts of the Calamares user-interface.
+In principle, all parts can be styled through CSS.
+Missing parts should be filed as issues.
+
+The IDs are based on the object names in the C++ code.
+You can use the Debug Dialog to find out object names:
+  - Open the debug dialog
+  - Choose tab *Tools*
+  - Click *Widget Tree* button
+The list of object names is printed in the log.
+
+Documentation for styling Qt Widgets through a stylesheet
+can be found at
+    https://doc.qt.io/qt-5/stylesheet-examples.html
+    https://doc.qt.io/qt-5/stylesheet-reference.html
+In Calamares, styling widget classes is supported (e.g.
+using `QComboBox` as a selector).
+*/
+
+/*** Generic Widgets.
+ *
+ * You can style **all** widgets of a given class by selecting
+ * the class name. Some widgets have specialized sub-selectors.
+ */
+
+QPushButton {
+  background-color: #aaaaaa;
+  color: #000000;
+  border: 1px solid #888888;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+QPushButton:hover {
+  background-color: #888888;
+  color: #ffffff;
+}
+
+/*** Main application window.
+ *
+ * The main application window has the sidebar, which in turn
+ * contains a logo and a list of items -- note that the list
+ * can **not** be styled, since it has its own custom C++
+ * delegate code.
+ */
+
+#mainApp {
+  background-color: #aaaaaa;
+  color: #000000;
+}
+
+#sidebarApp {
+  background-color: #888888;
+  color: #ffffff;
+}
+
+#logoApp {
+  background-color: #888888;
+}
+
+#sidebarMenuApp {
+  background-color: #888888;
+  color: #ffffff;
+  font: 20px;
+}
+
+QWidget {
+  font: 16px;
+  background-color: #aaaaaa;
+  color: #000000;
+}
+
+QDialogButtonBox {
+  background-color: #aaaaaa;
+  color: #000000;
+}
+
+#debugButton {
+  font: bold 8px;
+  color: #000000;
+}
+
+#debugButton:hover {
+  color: #ffffff;
+  background-color: #888888;
+}

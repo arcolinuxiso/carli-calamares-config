@@ -36,9 +36,18 @@ Use gammaray
  * the class name. Some widgets have specialized sub-selectors.
  */
 
-/*
-QPushButton { background-color: green; }
-*/
+QPushButton {
+  background-color: #5E6472;
+  color: #000000;
+  border: 1px solid #788091;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+QPushButton:hover {
+  background-color: #788091;
+  color: #ffffff;
+}
 
 /*** Main application window.
  *
@@ -48,85 +57,43 @@ QPushButton { background-color: green; }
  * delegate code.
  */
 
-/*
-#mainApp { }
-#sidebarApp { }
-#logoApp { }
-*/
-
-/*** Welcome module.
- *
- * There are plenty of parts, but the buttons are the most interesting
- * ones (donate, release notes, ...). The little icon image can be
- * styled through *qproperty-icon*, which is a little obscure.
- * URLs can reference the QRC paths of the Calamares application
- * or loaded via plugins or within the filesystem. There is no
- * comprehensive list of available icons, though.
- */
-
-/*
-QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
-#donateButton,
-#supportButton,
-#releaseNotesButton,
-#knownIssuesButton { qproperty-icon: url(:/data/images/help.svg); }
-*/
-
-/*** Partitioning module.
- *
- * Many moving parts, which you will need to experiment with.
- */
-
-/*
-#bootInfoIcon { }
-#bootInfoLable { }
-#deviceInfoIcon { }
-#defineInfoLabel { }
-#scrollAreaWidgetContents { }
-#partitionBarView { }
-*/
-
-/*** Licensing module.
- *
- * The licensing module paints individual widgets for each of
- * the licenses. The item can be collapsed or expanded.
- */
-
-/*
-#licenseItem {  }
-#licenseItemFullText {  }
-*/
-
-/* START OF QSS */
-
-#mainApp { }
+#mainApp {
+  background-color: #5E6472;
+  color: #000000;
+}
 
 #sidebarApp {
-  background-color: #444;
+  background-color: #788091;
+  color: #ffffff;
 }
 
 #logoApp {
-  background-color: #444;
+  background-color: #788091;
 }
 
-#sidebarMenuApp{
-  background-color: #444;
+#sidebarMenuApp {
+  background-color: #788091;
+  color: #ffffff;
   font: 20px;
 }
 
 QWidget {
   font: 16px;
+  background-color: #5E6472;
+  color: #000000;
 }
 
-QDialogButtonBox{
-  dialogbuttonbox-buttons-have-icons: 0;
+QDialogButtonBox {
+  background-color: #5E6472;
+  color: #000000;
 }
 
 #debugButton {
-	font: bold 8px;
-	color: #444;
+  font: bold 8px;
+  color: #000000;
 }
 
 #debugButton:hover {
-  color: #444;
+  color: #ffffff;
+  background-color: #788091;
 }
